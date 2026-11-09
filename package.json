@@ -1,0 +1,20 @@
+{
+  "name": "jini-schedule",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node test/server.test.mjs"
+  },
+  "description": "지니 스케줄 — 개인 일정 웹앱 + 푸시 알림 서버",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@netlify/blobs": "11.1.4",
+    "jose": "6.2.13",
+    "web-push": "3.6.7"
+  },
+  "devDependencies": {
+    "http_ece": "1.2.0"
+  }
+}

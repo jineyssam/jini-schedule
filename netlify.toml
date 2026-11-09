@@ -1,0 +1,13 @@
+# 지니 스케줄 — 정적 앱(site/) + 푸시 알림 함수(netlify/functions)
+[build]
+  publish = "site"
+  command = "echo build-skip"
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+
+[[headers]]
+  for = "/sw.js"
+  [headers.values]
+    Cache-Control = "no-cache"
