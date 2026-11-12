@@ -1,0 +1,17 @@
+{
+  "name": "지니 스케줄",
+  "short_name": "지니스케줄",
+  "description": "음력·공휴일·디데이를 챙기는 상큼한 개인 스케줄 앱",
+  "lang": "ko",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#fffaf3",
+  "theme_color": "#fff4f8",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
